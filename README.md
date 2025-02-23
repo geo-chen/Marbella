@@ -3,7 +3,7 @@
 ## Finding 1: Same default credentials and limited password combinations
 All dashcams were shipped with the same default credentials of 12345678 which creates a "insecure-by-default" setup. For users who change their passwords, it's limited to 8 characters. According to https://www.protiviti.com/sg-en/blogs/6259-8-character-password-still-dead, a 8-char password takes a maximum of 8 hours to be cracked on an AWS box.
 
-## Finding 2: Video recordings open to being download via ports 7777, 7778, 7779
+## Finding 2: Video recordings open to being downloaded via ports 7777, 7778, 7779
 Once access is gained either by default, common, or cracked passwords, the video recordings containing sensitive routes, conversations, footage, are open for downloading by creating a socket:
 ![image](https://github.com/user-attachments/assets/1f5b3387-7c7e-430f-af30-7bbc2014ee7e)
 
