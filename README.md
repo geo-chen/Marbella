@@ -15,6 +15,8 @@ Via port 7777 without any need to pair or press a physical button, a remote atta
 When a new SD card is popped into the dashcam, the existing password is written onto the SD card in plaintext automatically. An attacker with temporary access to the dashcam can switch SD card to steal password.
 ![image](https://github.com/user-attachments/assets/eeb6ce65-040e-4ddf-b818-bcee894ddeba)
 
+credits: Chee Peng
+
 ![image](https://github.com/user-attachments/assets/65924e4a-9656-49e7-91f4-b598aeccc3bf)
 
 
